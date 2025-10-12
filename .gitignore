@@ -1,0 +1,30 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+pyvenv.cfg
+
+# Streamlit local secrets (don’t push API keys)
+.streamlit/secrets.toml
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Build / distribution folders
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
